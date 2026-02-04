@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Wed Jun  7 20:08:41 2023
+
+
+FIT:    data read from "../Datos/datos.dat" every ::1
+        format = z
+        #datapoints = 17
+        residuals are weighted equally (unit weight)
+
+function used for fitting: Z(t)
+	Z(t) = - g*a*t + (g*(a**2))*(1 - exp(-t/a))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             g            
+   0 1.1280018700e+05   0.00e+00  2.37e+02    5.000000e+00   1.000000e+01
+  15 1.8149203258e+01  -1.41e-07  2.37e+02    3.143917e+00   9.679785e+00
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 18.1492
+rel. change during last iteration : -1.40686e-12
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.09998
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.20995
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.14392          +/- 0.05116      (1.627%)
+g               = 9.67979          +/- 0.1104       (1.141%)
+
+correlation matrix of the fit parameters:
+                a      g      
+a               1.000 
+g              -0.994  1.000 
